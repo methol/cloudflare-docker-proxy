@@ -26,12 +26,14 @@
    - add `xxx.example.com/*` to HTTP routes of workers
    - add more records and modify the config as you need
    ```javascript
-   const routes = {
-     "docker.libcuda.so": "https://registry-1.docker.io",
-     "quay.libcuda.so": "https://quay.io",
-     "gcr.libcuda.so": "https://k8s.gcr.io",
-     "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-     "ghcr.libcuda.so": "https://ghcr.io",
-   };
+    const routes = {
+      "docker.465798.xyz  ": "https://registry-1.docker.io",
+      "quay.465798.xyz": "https://quay.io",
+      "gcr.465798.xyz": "https://gcr.io",
+      "k8s-gcr.465798.xyz": "https://k8s.gcr.io",
+      "k8s.465798.xyz": "https://registry.k8s.io",
+      "ghcr.465798.xyz": "https://ghcr.io",
+      "cloudsmith.465798.xyz": "https://docker.cloudsmith.io",
+    };
    ```
 
